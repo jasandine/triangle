@@ -16,5 +16,4 @@ describe("triangleMath", function() {
     expect(triangleMath(1, 1, 4)).to.equal("that is not a triangle");
   });
 
-
 });
