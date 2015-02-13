@@ -8,4 +8,8 @@ describe("triangleMath", function() {
     expect(triangleMath(2, 3, 3)).to.equal("isosceles");
   });
 
+  it("is a scalene triangle if no sides are equal", function() {
+    expect(triangleMath(1, 2, 3)).to.equal("scalene");
+  });
+
 });
