@@ -12,4 +12,9 @@ describe("triangleMath", function() {
     expect(triangleMath(1, 2, 3)).to.equal("scalene");
   });
 
+  it("is not a triangle if one side is at least as long as the other two sides combined", function() {
+    expect(triangleMath(1, 1, 4)).to.equal("that is not a triangle");
+  });
+
+
 });

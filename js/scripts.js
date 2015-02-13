@@ -6,17 +6,18 @@ var triangleMath = function(x,y,z) {
   if (x + y >= z && x + z >= y && y + z >= x) {
     if ( x === y && y === z ) {
       results = "equilateral";
-      return results;
 
-  } else if ( x === y || x === z || z === y ) {
-    results = "isosceles";
-    return results;
+    } else if ( x === y || x === z || z === y ) {
+      results = "isosceles";
 
-  }  else  {
+    }  else  {
      results = "scalene";
-     return results;
- 
-  }
 
-}  
+   }
+ }  else  {
+  results = "that is not a triangle";
+
+}
+return results;
+
 };
