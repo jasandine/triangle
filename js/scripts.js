@@ -1,10 +1,9 @@
-var triangle = function(calculate) {
+var triangleMath = function(x,y,z) {
 
-  var numbers = calculate;
-  var x = [];
-  var y = [];
-  var z = [];
+var results = "";
 
-
+if ( x === y && y === z ) {
+  results = "equilateral";
+}
 
 }
